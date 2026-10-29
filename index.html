@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HistoriQ – Történelem feladattár</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="logo" href="#top">Histori<span>Q</span></a>
+      <button class="menu-toggle" type="button" aria-label="Menü" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Fő navigáció">
+        <a href="#feladatok">Feladatok</a>
+        <a href="#korszakok">Korszakok</a>
+        <a href="#premium">Prémium</a>
+        <a class="login" href="#">Belépés</a>
+        <a class="button button-dark" href="#">Regisztráció</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">✦ Tanulj okosabban történelemből</div>
+          <h1>Minden feladat,<br><em>egy helyen.</em></h1>
+          <p class="hero-text">Keress és gyakorolj történelem feladatokkal. Készülj fel magabiztosan dolgozatokra és érettségire.</p>
+          <form class="search-box" action="#feladatok">
+            <span class="search-icon">⌕</span>
+            <input type="search" placeholder="Keress témára, évszámra vagy címkére..." aria-label="Feladatok keresése">
+            <button class="button button-blue" type="submit">Keresés</button>
+          </form>
+          <div class="popular">
+            <span>Népszerű:</span>
+            <a href="#feladatok">#MátyásKirály</a>
+            <a href="#feladatok">#1848</a>
+            <a href="#feladatok">#Érettségi</a>
+          </div>
+        </div>
+
+        <div class="preview-wrap">
+          <div class="preview-shadow"></div>
+          <div class="document-preview">
+            <div class="document-top">
+              <div class="doc-dots"><i></i><i></i><i></i></div>
+              <span>Feladat előnézete</span>
+              <b>PDF</b>
+            </div>
+            <div class="document-body">
+              <div class="document-kicker">TÖRTÉNELEM · KÖZÉPKOR</div>
+              <h2>Mátyás király<br>udvara</h2>
+              <p class="document-intro">Olvasd el a forrást, majd válaszolj a kérdésekre!</p>
+              <div class="document-rule"></div>
+              <div class="question">
+                <strong>01</strong>
+                <div>
+                  <b>Melyik állítás igaz Mátyás királyról?</b>
+                  <span class="answer-line"></span>
+                  <span class="answer-line short"></span>
+                </div>
+              </div>
+              <div class="question">
+                <strong>02</strong>
+                <div>
+                  <b>Egészítsd ki a mondatot!</b>
+                  <span class="answer-line"></span>
+                </div>
+              </div>
+              <div class="document-footer">
+                <span>4 oldal</span>
+                <span>Megoldókulccsal</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card">
+            <span class="check">✓</span>
+            <div><b>Jó választás!</b><small>1 284 letöltés</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="korszakok">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Felfedezés</span>
+            <h2>Böngéssz korszakok szerint</h2>
+          </div>
+          <a class="view-all" href="#feladatok">Összes <span>→</span></a>
+        </div>
+        <div class="category-grid">
+          <a class="category category-purple" ><span class="category-icon">🏛</span><h3>Ókor</h3><small>1 820 feladat</small><b>→</b></a>
+          <a class="category category-blue" ><span class="category-icon">⚔</span><h3>Középkor</h3><small>3 140 feladat</small><b>→</b></a>
+          <a class="category category-orange" ><span class="category-icon">♜</span><h3>Újkor</h3><small>2 960 feladat</small><b>→</b></a>
+          <a class="category category-green" ><span class="category-icon">✒</span><h3>19. század</h3><small>2 410 feladat</small><b>→</b></a>
+          <a class="category category-pink" ><span class="category-icon">◎</span><h3>20. század</h3><small>3 270 feladat</small><b>→</b></a>
+          <a class="category category-navy" ><span class="category-icon">🇭🇺</span><h3>Magyar történelem</h3><small>5 380 feladat</small><b>→</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="feladatok">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Feladattár</span>
+            <h2>Friss feladatok</h2>
+          </div>
+          <a class="view-all" href="#">Összes <span>→</span></a>
+        </div>
+        <div class="tabs">
+          <button class="tab active" type="button">Legújabb</button>
+          <button class="tab" type="button">Népszerű</button>
+          <button class="tab" type="button">Legtöbbet letöltött</button>
+        </div>
+        <div class="task-grid">
+          <article class="task-card"><div class="task-meta"><span class="file pdf">PDF</span><span class="solution">✓ Megoldókulccsal</span></div><h3>Az Anjou-kor gazdasága</h3><p>Forráselemzés és rövid válaszos kérdések I. Károly és Nagy Lajos korából.</p><div class="task-tags"><span>#Anjouk</span><span>#Középkor</span></div><div class="task-bottom"><span>kovacs_t</span><span>642 letöltés</span></div></article>
+          <article class="task-card"><div class="task-meta"><span class="file docx">DOCX</span></div><h3>1848–49 eseményei</h3><p>Időrendi sorrendbe rendezés, térképes feladat és három esszékérdés.</p><div class="task-tags"><span>#Szabadságharc</span><span>#19század</span></div><div class="task-bottom"><span>histori_anna</span><span>931 letöltés</span></div></article>
+          <article class="task-card"><div class="task-meta"><span class="file pdf">PDF</span><span class="solution">✓ Megoldókulccsal</span></div><h3>A római köztársaság bukása</h3><p>Tesztlap húsz kérdéssel, érettségi szintű forráselemzéssel.</p><div class="task-tags"><span>#Róma</span><span>#Ókor</span></div><div class="task-bottom"><span>tanar_gabor</span><span>518 letöltés</span></div></article>
+          <article class="task-card"><div class="task-meta"><span class="file docx">DOCX</span></div><h3>Trianon és következményei</h3><p>Statisztikai táblázatok és térképek értelmezése, rövid fogalmazás.</p><div class="task-tags"><span>#Trianon</span><span>#20század</span></div><div class="task-bottom"><span>dora_m</span><span>1 076 letöltés</span></div></article>
+          <article class="task-card"><div class="task-meta"><span class="file pdf">PDF</span></div><h3>A reformáció Magyarországon</h3><p>Fogalommagyarázat, párosítás és egy hosszabb forrásszöveg.</p><div class="task-tags"><span>#Reformáció</span><span>#Újkor</span></div><div class="task-bottom"><span>balazs88</span><span>287 letöltés</span></div></article>
+          <article class="task-card"><div class="task-meta"><span class="file pdf">PDF</span><span class="solution">✓ Megoldókulccsal</span></div><h3>Az Árpád-ház uralkodói</h3><p>Uralkodók, évszámok és események összekapcsolása, 15 kérdés.</p><div class="task-tags"><span>#Árpádok</span><span>#Középkor</span></div><div class="task-bottom"><span>kata_k</span><span>754 letöltés</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="premium">
+      <div class="container premium-block">
+        <div>
+          <span class="section-label">Prémium</span>
+          <h2>Több letöltés, kevesebb korlát.</h2>
+          <ul>
+            <li>Korlátlan letöltés</li>
+            <li>Kedvencek és saját gyűjtemények</li>
+            <li>Speciális szűrés</li>
+          </ul>
+          <a class="button button-blue" href="#">Prémium megtekintése</a>
+        </div>
+        <div class="premium-price">
+          <span>HistoriQ Premium</span>
+          <strong>1 490 Ft</strong>
+          <small>/ hó</small>
+          <i>✓ Bármikor lemondható</i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a class="logo" href="#top">Histori<span>Q</span></a><p>Történelem feladattár diákoknak és tanároknak.</p></div>
+      <div class="footer-links"><a href="#">Rólunk</a><a href="#">Kapcsolat</a><a href="#">Adatvédelem</a><a href="#">ÁSZF</a></div>
+    </div>
+    <div class="copyright">© 2026 HistoriQ</div>
+  </footer>
+</body>
+</html>
